@@ -1,0 +1,40 @@
+.list__item img {
+  width: 235px;
+  height: 250px;
+}
+.list__item {
+  display: flex;
+
+  gap: 20px;
+}
+.container {
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+.item h4 {
+  text-decoration: underline;
+  color: #003580;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+.item p {
+  margin-top: 10px;
+}
+.price {
+  font-weight: bold;
+}
+.rate {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #003580;
+  color: white;
+  font-weight: bold;
+}

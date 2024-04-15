@@ -1,0 +1,14 @@
+.cols {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  gap: 70px;
+  margin-left: 300px;
+}
+.item {
+  display: block;
+  color: #4291de;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

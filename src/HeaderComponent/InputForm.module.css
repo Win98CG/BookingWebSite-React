@@ -1,0 +1,43 @@
+.form__controls {
+  position: absolute;
+  left: 300px;
+  background-color: white;
+  top: 410px;
+  border: 4px solid #febd0b;
+  border-radius: 10px;
+  padding: 5px;
+}
+.form__control {
+  margin-left: 25px;
+}
+.form__control input {
+  border: none;
+  padding: 10px;
+}
+.form__control input::placeholder {
+  color: #d3d3d3;
+}
+.button {
+  padding: 10px;
+  color: white;
+  background-color: #0071c2;
+  margin-left: 10px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.icon {
+  color: #d3d3d3;
+  font-size: 1.2rem;
+}
+.calendarWrap {
+  display: inline-block;
+  position: relative;
+}
+.calendarElement {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+  border: 1px solid #ccc;
+  z-index: 999;
+}

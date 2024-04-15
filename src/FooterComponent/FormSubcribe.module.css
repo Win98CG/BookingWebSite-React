@@ -1,0 +1,27 @@
+.container {
+  color: white;
+  margin-left: 550px;
+  margin-bottom: 50px;
+}
+.form button,
+.form input {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 10px 50px;
+}
+.container h2 {
+  font-size: 2rem;
+  padding-top: 50px;
+}
+.container p {
+  font-size: 0.8em;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+.button {
+  background-color: #0071c2;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

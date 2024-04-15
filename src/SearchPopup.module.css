@@ -1,0 +1,53 @@
+h3 {
+  color: #57574f;
+  margin-bottom: 15px;
+}
+label {
+  font-weight: 500;
+}
+.background {
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+  height: fit-content;
+}
+.form__control input {
+  width: 99%;
+  height: 30px;
+}
+.form__control input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.form__option input {
+  width: 50px;
+}
+.form__option__input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.form__option__input p {
+  margin-left: 15px;
+  color: #a08626;
+}
+.form__button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  background-color: #0071c2;
+  margin-top: 30px;
+}
+.calendarWrap {
+  display: inline-block;
+  position: relative;
+}
+.calendarElement {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+  border: 1px solid #ccc;
+  z-index: 999;
+}

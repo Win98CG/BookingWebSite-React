@@ -1,0 +1,22 @@
+.item img {
+  width: 320px;
+  height: 300px;
+  border-radius: 10px;
+  z-index: -1;
+}
+.container {
+  margin-top: 60px;
+  margin-left: 300px;
+  display: flex;
+  gap: 15px;
+}
+.info {
+  position: relative;
+  top: -80px;
+  left: 20px;
+  color: white;
+  font-weight: bold;
+}
+.info h4 {
+  font-size: 1.5rem;
+}
